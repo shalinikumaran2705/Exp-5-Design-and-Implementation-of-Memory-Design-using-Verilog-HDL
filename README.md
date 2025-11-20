@@ -19,9 +19,8 @@ Analyze the output waveforms in the simulation window, and verify that the corre
 7. Save and Document Results
 Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
 
-# Code
 # RAM
-// Verilog code
+# Code
 ```
 module ram (
     input clk,
@@ -47,7 +46,7 @@ module ram (
     end
 endmodule
 ```
-// Test bench
+# TestBench
 
 ```
 `timescale 1ns/1ps
@@ -105,13 +104,13 @@ module ram_tb;
 endmodule
 ```
 
-// output Waveform
+# Output
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/79ceb587-9742-45aa-a2b4-da1655d9f0c7" />
 
 
 # ROM
- // write verilog code for ROM using $random
+# Code
 
  ```
 module rom (
@@ -134,9 +133,7 @@ module rom (
 endmodule
 
 ```
- 
- // Test bench
-
+ # Testbench
  ```
 `timescale 1ns/1ps
 module rom_tb;
@@ -177,14 +174,13 @@ module rom_tb;
 endmodule
 ```
 
-
-// output Waveform
+# Output
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fca88061-c4f0-49ce-ba93-79763b7fb388" />
 
 
  # FIFO
- // write verilog code for FIFO
+# Code
  ```
 `timescale 1ns / 1ps
 
@@ -240,7 +236,7 @@ module fifo_sync(
 endmodule
 ```
  
- // Test bench
+# Testbench
  ```
 module fifo_sync_tb;
     reg clk;
@@ -304,8 +300,7 @@ endmodule
 
 
 ```
-
-// output Waveform
+# Output
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6b4f7a23-d7a0-4e1b-ad73-8c616b5f6bef" />
 
